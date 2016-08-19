@@ -47,7 +47,7 @@ p {
 
 .logo p {
     position: absolute;
-    top: 111px;
+    top: 110px;
     left: 108px;
     font-size: 11px;
     font-weight: bold;
@@ -105,7 +105,6 @@ p {
 
 .photo {
     width: 1000px;
-    margin-top: -2px;
     margin-left: 9px;
     background-image: url('../img/blue_lines.png');
     z-index: 3;
@@ -153,19 +152,16 @@ a {
 .submenu {
     display: none;
     position: absolute;
-    width: 150px;
+    width: 125px;
     height: 135px;
     background-color: #303030;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
 }
 
-.submenu>li {
+.topmenu .submenu>li {
     display: block;
+    width: 100px;
     line-height: 26px;
-}
-
-.submenu li>a {
-    margin-left: -59px;
 }
 
 .menu>li:hover>.submenu {
