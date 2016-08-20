@@ -1,20 +1,17 @@
 body {
     position: relative;
+    background-image: url('../img/body_bg.png');
 }
 
 .container {
     position: relative;
     width: 1280px;
-    height: 1060px;
     margin: 0 auto;
-    background-image: url('../img/body_bg.png');
     z-index: 1;
 }
 
 .page {
-    position: absolute;
-    top: 37px;
-    left: 141px;
+    margin: 0 auto;
     width: 1018px;
     height: 991px;
     background-image: url('../img/page_bg.png');
@@ -132,7 +129,7 @@ a {
 }
 
 .topmenu ul {
-    padding-left: 29px;
+    padding-left: 15px;
 }
 
 .topmenu ul li {
@@ -160,7 +157,7 @@ a {
 
 .topmenu .submenu>li {
     display: block;
-    width: 100px;
+    width: 110px;
     line-height: 26px;
 }
 
@@ -214,14 +211,12 @@ h2 {
 /*FOOTER*/
 
 footer {
-    position: absolute;
-    bottom: 12px;
+    margin-top: 9px;
+    margin-bottom: 10px;
     width: 1280px;
-    margin-left: 45px;
     color: #fff;
     font-family: Tahoma, sans-serif;
     font-size: 9pt;
     letter-spacing: -.1px;
     text-align: center;
-    z-index: 5;
 }
