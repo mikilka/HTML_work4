@@ -31,18 +31,20 @@ header {
 }
 
 .logo {
+    display: inline-block;
     margin-top: 11px;
     margin-left: 37px;
     float: left;
 }
 
+span,
 p {
     color: #128aa7;
     font-family: Tahoma;
     font-size: 9pt;
 }
 
-.logo p {
+.logo span {
     position: absolute;
     top: 110px;
     left: 108px;
@@ -86,26 +88,28 @@ p {
 .countries {
     display: flex;
     justify-content: flex-end;
-    margin-top: 32px;
-    margin-right: 33px;
+    margin-right: 43px;
+}
+
+.countries li {
+    display: inline-block;
+    width: 55px;
+    margin-top: 33px;
+    box-sizing: border-box;
 }
 
 .countries a {
-    width: 52px;
-    height: 45px;
+    display: inline-block;
+    width: 55px;
     margin: 0 4px 0 1px;
+    padding-top: 46px;
     color: #128aa7;
     font-family: Tahoma;
-    font-size: 8pt;
-    letter-spacing: -.5px;
-    text-align: center;
-}
-
-.countries a p {
-    margin-top: 47px;
     font-size: 9px;
     letter-spacing: .5px;
+    text-align: center;
     text-decoration: underline;
+    box-sizing: border-box;
 }
 
 .india {
@@ -117,19 +121,19 @@ p {
 }
 
 .tibet {
-    background: url('../img/flags.png') no-repeat -109px 0;
+    background: url('../img/flags.png') no-repeat -107px 0;
 }
 
 .butan {
-    background: url('../img/flags.png') no-repeat -166px 0;
+    background: url('../img/flags.png') no-repeat -162px 0;
 }
 
 .sri-lanka {
-    background: url('../img/flags.png') no-repeat -223px 0;
+    background: url('../img/flags.png') no-repeat -216px 0;
 }
 
 .maldives {
-    background: url('../img/flags.png') no-repeat -279px 0;
+    background: url('../img/flags.png') no-repeat -272px 0;
 }
 
 .photo {
