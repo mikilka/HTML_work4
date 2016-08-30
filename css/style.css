@@ -181,7 +181,7 @@ a {
     position: relative;
 }
 
-.triangle::after {
+.triangle>a::after {
     position: absolute;
     top: 12px;
     margin-left: 5px;
@@ -190,7 +190,7 @@ a {
     content: '';
 }
 
-.submenu {
+.triangle ul {
     display: none;
     position: absolute;
     width: 125px;
@@ -199,13 +199,13 @@ a {
     box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
 }
 
-.topmenu .submenu li {
+.triangle ul li {
     display: block;
     width: 110px;
     line-height: 26px;
 }
 
-.menu li:hover .submenu {
+.triangle:hover ul {
     display: block;
 }
 
