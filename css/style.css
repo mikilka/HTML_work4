@@ -110,30 +110,31 @@ p {
     text-align: center;
     text-decoration: underline;
     box-sizing: border-box;
+    background: url('../img/flags.png') no-repeat;
 }
 
-.india {
-    background: url('../img/flags.png') no-repeat 5px 0;
+a.india {
+    background-position: 5px 0;
 }
 
-.nepal {
-    background: url('../img/flags.png') no-repeat -51px 0;
+a.nepal {
+    background-position: -51px 0;
 }
 
-.tibet {
-    background: url('../img/flags.png') no-repeat -107px 0;
+a.tibet {
+    background-position: -107px 0;
 }
 
-.butan {
-    background: url('../img/flags.png') no-repeat -162px 0;
+a.butan {
+    background-position: -162px 0;
 }
 
-.sri-lanka {
-    background: url('../img/flags.png') no-repeat -216px 0;
+a.sri-lanka {
+    background-position: -216px 0;
 }
 
-.maldives {
-    background: url('../img/flags.png') no-repeat -272px 0;
+a.maldives {
+    background-position: -272px 0;
 }
 
 .photo {
@@ -144,9 +145,9 @@ p {
 }
 
 .photo img {
+    display: block;
     width: 1000px;
-    height: 236px;
-    margin-top: -1px;
+    height: 235px;
 }
 
 /*TOPMENU*/
@@ -159,7 +160,6 @@ a {
 .topmenu {
     width: 1002px;
     height: 30px;
-    margin-top: -3px;
     margin-left: 7px;
     background-image: url('../img/panel.png');
 }
@@ -199,13 +199,13 @@ a {
     box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
 }
 
-.topmenu .submenu>li {
+.topmenu .submenu li {
     display: block;
     width: 110px;
     line-height: 26px;
 }
 
-.menu>li:hover>.submenu {
+.menu li:hover .submenu {
     display: block;
 }
 
@@ -231,16 +231,12 @@ a {
 }
 
 h2 {
-    margin: 10px 0 8px 6px;
+    margin: 10px 0 8px 0;
     font-family: Tahoma, sans-serif;
     font-size: 17px;
     font-weight: bold;
     letter-spacing: -.5px;
     text-align: center;
-}
-
-.news h2 {
-    margin-left: -6px;
 }
 
 .info p,
