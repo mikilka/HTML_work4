@@ -183,11 +183,17 @@ a {
 
 .triangle>a::after {
     position: absolute;
-    top: 12px;
+    top: 10px;
     margin-left: 5px;
     border: 6px solid transparent;
     border-top: 6px solid #fff;
     content: '';
+    transition: transform 2s ease-in-out;
+}
+
+.triangle>a:hover::after {
+    transition: transform 2s ease-in-out;
+    transform: rotate(-90deg);
 }
 
 .triangle ul {
