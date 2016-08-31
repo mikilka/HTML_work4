@@ -181,6 +181,15 @@ a {
     position: relative;
 }
 
+.triangle>a {
+    transition: color 2s ease;
+}
+
+.triangle:hover>a {
+    transition: color 2s ease;
+    color: #4800FF;
+}
+
 .triangle>a::after {
     position: absolute;
     top: 10px;
@@ -188,12 +197,13 @@ a {
     border: 6px solid transparent;
     border-top: 6px solid #fff;
     content: '';
-    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, border-top 2s ease;
 }
 
-.triangle>a:hover::after {
-    transition: transform 2s ease-in-out;
+.triangle:hover>a::after {
+    transition: transform 2s ease-in-out, border-top 2s ease;
     transform: rotate(-90deg);
+    border-top: 6px solid #4800FF;
 }
 
 .triangle ul {
