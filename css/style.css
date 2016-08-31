@@ -181,11 +181,11 @@ a {
     position: relative;
 }
 
-.triangle>a {
+.menu li>a {
     transition: color 2s ease;
 }
 
-.triangle:hover>a {
+.menu li:hover>a {
     transition: color 2s ease;
     color: #4800FF;
 }
